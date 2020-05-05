@@ -1,2 +1,3 @@
-* linguist-vendored
-*.js linguist-vendored=true
+# Auto detect text files and perform LF normalization
+* text=auto
+css/* css/* linguist-vendored
