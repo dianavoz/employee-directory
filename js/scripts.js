@@ -194,7 +194,7 @@ input.addEventListener('keyup', function(e) {
 /*============ page refresh ==================*/
 //click on submit to refresh and get the profiles back
 body.addEventListener('click', (e) => {
-    if (e.target.type === 'submit') {
-        window.location.reload();
+    if (e.target.type === 'submit'||e.target.id === 'employee') {
+        location.reload();
     }
 });
